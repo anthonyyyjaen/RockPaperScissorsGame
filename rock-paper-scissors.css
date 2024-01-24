@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.title-name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+img {
+    width: 50px;
+}
+
+.move-icon {
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 50%;
+    padding: 30px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+
+.result {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px 0 25px 0;
+}
+
+.score {
+    margin: 30px 0;
+}
+
+.reset-button, .auto-play-button {
+    padding: 8px 15px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: RGB(250, 192, 54);
+    font-weight: 600;
+    transition: all ease .5s;
+}
+
+.reset-button:hover, .auto-play-button:hover {
+    background-color: black;
+    color: RGB(250, 192, 54);
+    border: solid RGB(250, 192, 54) 1px;
+}
+
+
+
+.confirmation {
+    margin-top: 200px;
+}
+.confirmation button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 10px 0 10px;
+    transition: all ease .5s;
+}
+
+.confirmation button:hover {
+    background-color: black;
+    color: RGB(250, 192, 54);
+    border: solid RGB(250, 192, 54) 1px;
+}
